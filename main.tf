@@ -8,7 +8,7 @@
 provider "aws" {
   region = "us-east-1"
   assume_role {
-    role_arn = "arn:aws:iam::962804303520:role/automation" # Role in dev account
+    role_arn = "arn:aws:iam::${var.accountid}:role/automation" # Role in dev account
   }
 }
 
