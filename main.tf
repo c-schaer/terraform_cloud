@@ -6,7 +6,7 @@
 #  
 #----------------------------------------------------------
 
-variable "acct" {}
+variable "accountid" {}
 
 provider "aws" {
   region = "us-east-1"
